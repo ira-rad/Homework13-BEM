@@ -1,0 +1,91 @@
+.button--tab-small{
+    width: 88px;
+    height: 36px;
+    font-family:'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #2C2C2C;
+    &:first-child{
+        color: white;
+    }
+}
+.row, .round__buttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.container__btns{
+    display: flex;
+    flex-direction: row;
+    
+}
+.btns__left{
+    margin-right: 66px;
+}
+.button--search-small{
+    width: 48px;
+    height: 36px;
+}
+.buttons__search{
+    display: flex;
+    flex-direction: row;
+}
+
+.btns--search{
+    margin-top: 20px;
+
+}
+.btns--size-small{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+.button--size-small{
+    width: 58px;
+    height: 36px;
+    font-family:'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #2C2C2C;
+    &:first-child{
+        color: white;
+    }
+
+}
+
+.button--yellow-round{
+    width: 36px;
+height: 36px;
+background: #FF3E1D;
+border-radius: 100px;
+border: none;
+margin-right: 20px;
+cursor: pointer;
+&:hover{
+    background: rgb(243, 94, 68);   
+}
+&:active{
+    background: rgb(161, 31, 8);   
+}
+}
+.button--green-round{
+    width: 48px;
+height: 48px;
+background: #00D200;
+border-radius: 29px;
+border: none;
+cursor: pointer;
+    &:hover{
+        background: rgb(63, 192, 63);  
+    }
+     &:active{
+        background: rgb(5, 145, 5);   
+    }
+}

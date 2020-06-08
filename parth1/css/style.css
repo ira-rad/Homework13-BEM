@@ -1,0 +1,133 @@
+.tittle {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2C2C2C;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttons__section--first {
+  margin-top: 26px;
+}
+
+.btn--downl {
+  padding: 0px 25px;
+}
+
+.button--big {
+  width: 144px;
+  height: 46px;
+  margin-right: 20px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+}
+.button--big:last-child {
+  margin-right: 0px;
+}
+
+.button--row {
+  display: flex;
+}
+
+.button--blue {
+  background: #18A0FB;
+  color: #FFFFFF;
+}
+.button--blue:hover {
+  background: #69baf0;
+}
+.button--blue:active {
+  background: #237fbd;
+}
+
+.button--grey {
+  background: rgba(224, 224, 224, 0.3);
+  color: #878787;
+}
+.button--grey:hover {
+  background: white;
+  border: 1px solid rgba(224, 224, 224, 0.3);
+}
+.button--grey:active {
+  background: rgba(224, 224, 224, 0.37);
+}
+
+.button--white {
+  border: 1px solid #E0E0E0;
+  background: white;
+  color: #2C2C2C;
+}
+.button--white:hover {
+  background: #878787;
+}
+.button--white:active {
+  background: rgba(224, 224, 224, 0.3);
+}
+
+.button--border-blue {
+  border: 1px solid #18A0FB;
+  background: white;
+  color: #18A0FB;
+}
+.button--border-blue:hover {
+  background: rgba(196, 190, 190, 0.582);
+}
+.button--border-blue:active {
+  background: rgba(168, 158, 158, 0.856);
+}
+
+.button__item {
+  align-items: center;
+}
+
+.buttons__section--second, .buttons__section--third {
+  margin-top: 20px;
+}
+
+.icon--white path {
+  stroke: #FFFFFF;
+}
+
+.icon--gray path {
+  stroke: #878787;
+}
+
+.icon--black path {
+  stroke: #2C2C2C;
+}
+
+.icon--blue path {
+  stroke: #18A0FB;
+}
+
+.icon--right {
+  margin-left: 14px;
+}
+
+.icon--left {
+  margin-right: 14px;
+}
+
+.button__item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */

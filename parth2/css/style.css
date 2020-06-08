@@ -1,0 +1,62 @@
+.btn--first-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.btn--tab {
+  width: 56px;
+  height: 48px;
+  align-items: center;
+}
+
+.second-row, .third-row {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.btn--first {
+  border-radius: 5px 0px 0px 5px;
+}
+
+.btn--last {
+  border-radius: 0px 5px 5px 0px;
+}
+
+button {
+  border: none;
+}
+
+.button--tab {
+  width: 134px;
+  height: 46px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #2C2C2C;
+}
+.button--tab:first-child {
+  color: #FFFFFF;
+}
+
+.button--size {
+  width: 110px;
+  height: 46px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #2C2C2C;
+}
+.button--size:first-child {
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=style.css.map */
